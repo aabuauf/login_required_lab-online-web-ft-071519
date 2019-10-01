@@ -7,9 +7,7 @@ class SessionsController < ApplicationController
     
   end
   
-  def current_user(session)
-    
-  end
+
 end
   
   
