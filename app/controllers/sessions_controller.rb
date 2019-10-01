@@ -6,6 +6,10 @@ class SessionsController < ApplicationController
   def new
     
   end
+  
+  def current_user(session)
+    
+  end
 end
   
   
