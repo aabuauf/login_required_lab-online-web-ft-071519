@@ -2,7 +2,8 @@
 class SecretsController < ApplicationController
   
 def show
-  return head(:forbidden) unless session.include? :user_id
-  binding.pry
+  redirect_to  unless session.include? :user_id
+  
+  
 end
 end
